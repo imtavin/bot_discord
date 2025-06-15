@@ -1,26 +1,18 @@
 {
-  "name": "discord",
+  "name": "discord-bot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@discordjs/opus": "^0.10.0",
-    "@discordjs/rest": "^2.5.0",
-    "@discordjs/voice": "^0.18.0",
-    "@distube/soundcloud": "^2.0.4",
-    "@distube/spotify": "^2.0.2",
-    "@distube/yt-dlp": "^2.0.1",
-    "@distube/ytdl-core": "^4.16.12",
-    "chalk": "^4.1.2",
-    "discord.js": "^14.19.3",
-    "distube": "^5.0.7",
-    "dotenv": "^16.5.0",
-    "prism-media": "^1.3.5"
+    "discord.js": "^14.11.0",
+    "distube": "^4.0.0",
+    "@distube/spotify": "^4.0.0",
+    "@distube/soundcloud": "^4.0.0",
+    "@distube/yt-dlp": "^4.0.0",
+    "@discordjs/voice": "^0.14.0",
+    "dotenv": "^16.0.3",
+    "chalk": "^5.0.1"
   }
 }
